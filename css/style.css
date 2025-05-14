@@ -1964,7 +1964,7 @@ button[type="submit"]:hover {
 
 /*particular-blog*/
 .blog-detail-wrapper {
-  max-width: 1200px;
+  max-width: 800px;
   margin: auto;
   padding: 40px 20px;
   font-family: 'Inter', sans-serif;
