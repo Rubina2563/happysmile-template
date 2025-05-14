@@ -1976,8 +1976,10 @@ button[type="submit"]:hover {
 }
 
 .blog-detail-header h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
+   font-size: clamp(24px, 5vw, 36px);
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #111;
 }
 
 .blog-detail-header img {
@@ -1985,7 +1987,7 @@ button[type="submit"]:hover {
   height: auto;
   object-fit: cover;
   border-radius: 4px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .blog-detail-content{
   max-width: 800px;
@@ -2051,7 +2053,9 @@ button[type="submit"]:hover {
   }
 
   .blog-detail-header h1 {
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
+
   }
 
   .blog-detail-content h2 {
